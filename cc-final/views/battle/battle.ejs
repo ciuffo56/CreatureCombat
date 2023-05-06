@@ -1,0 +1,47 @@
+<h1>Battle!</h1>
+<h2>Round <%=turnCount%></h2>
+<h2>Your Team:</h2>
+<form action="/battle" method="POST">
+    <div>
+        <h3><%= uA1.name %>, HP: <%= uA1.hp %></h3>
+        <div>
+            <label for="uA1Attack">Choose Attack</label>
+            <select name="uA1Attack" id="uA1Attack">
+                <option value="1"><%= uA1.atk1.name %></option>
+                <option value="2"><%= uA1.atk2.name %></option>
+                <option value="3"><%= uA1.atk3.name %></option>
+                <option value="4"><%= uA1.atk4.name %></option>
+            </select>
+        </div>
+        <div>
+            <label for="uA1Target">Choose Target</label>
+            <select name="uA1Target" id="uA1Target">
+                <option value="1"><%= cA1.name %></option>
+                <option value="2"><%= cA2.name %></option>
+            </select>
+        </div>
+    </div>
+    <div>
+        <h3><%= uA2.name %>, HP: <%= uA2.hp %></h3>
+        <div>
+            <label for="uA2Attack">Choose Attack</label>
+            <select name="uA2Attack" id="uA2Attack">
+                <option value="1"><%= uA2.atk1.name %></option>
+                <option value="2"><%= uA2.atk2.name %></option>
+                <option value="3"><%= uA2.atk3.name %></option>
+                <option value="4"><%= uA2.atk4.name %></option>
+            </select>
+        </div>
+        <div>
+            <label for="uA2Target">Choose Target</label>
+            <select name="uA2Target" id="uA2Target">
+                <option value="1"><%= cA1.name %></option>
+                <option value="2"><%= cA2.name %></option>
+            </select>
+        </div>
+    </div>
+    <button type="submit">End Round</button>
+</form>
+<h2>Enemy Team:</h2>
+<h3><%= cA1.name %>, HP: <%= cA1.hp %></h3>
+<h3><%= cA2.name %>, HP: <%= cA2.hp %></h3>

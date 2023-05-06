@@ -1,0 +1,801 @@
+[{
+  "id":  "32",
+  "sprite": "data:koala.svg" ,
+  "name": "Koala",
+  "hp": 250,
+  "atk1": {
+    "name": "Koalas Cry",
+    "pwr": 30,
+    "spd": 90
+  },
+  "atk2": {
+    "name": "Scratch",
+    "pwr": 50,
+    "spd": 50
+  },
+  "atk3": {
+    "name": "Stench",
+    "pwr": 10,
+    "spd": 90
+  },
+  "atk4": {
+    "name": "Tree Swing",
+    "pwr": 25,
+    "spd": 75
+  }
+},{
+  "_id":  "01",
+  "sprite":"data:rat.svg",
+  "name": "Rat",
+  "hp": 230,
+  "atk1": {
+    "name": "Cheese Trap",
+    "pwr": 30,
+    "spd": 90
+  },
+  "atk2": {
+    "name": "Bite",
+    "pwr": 40,
+    "spd": 60
+  },
+  "atk3": {
+    "name": "Quick Step",
+    "pwr": 15,
+    "spd": 85
+  },
+  "atk4": {
+    "name": "Scratch",
+    "pwr": 50,
+    "spd": 50
+  }
+},{
+  "_id": "02",
+  "sprite":"data:dragon.svg",
+  "name": "Dragon",
+  "hp": 300,
+  "atk1": {
+    "name": "Flame Breath",
+    "pwr": 60,
+    "spd": 60
+  },
+  "atk2": {
+    "name": "Wing Beat",
+    "pwr": 65,
+    "spd": 35
+  },
+  "atk3": {
+    "name": "Bite",
+    "pwr": 40,
+    "spd": 60
+  },
+  "atk4": {
+    "name": "Tail Swing",
+    "pwr": 80,
+    "spd": 20
+  }
+},{
+  "_id": "03",
+  "sprite":"data:scorpion.svg",
+  "name": "Scorpion",
+  "hp": 230,
+  "atk1": {
+    "name": "Stinger Shutdown",
+    "pwr": 90,
+    "spd": 30
+  },
+  "atk2": {
+    "name": "Sting",
+    "pwr": 60,
+    "spd": 40
+  },
+  "atk3": {
+    "name": "Quick Step",
+    "pwr": 15,
+    "spd": 85
+  },
+  "atk4": {
+    "name": "Jab",
+    "pwr": 30,
+    "spd": 70
+  }
+},{
+  "_id": "04",
+  "sprite":"data:deer.svg",
+  "name": "Deer",
+  "hp": 240,
+  "atk1": {
+    "name": "Horned Charge",
+    "pwr": 40,
+    "spd": 80
+  },
+  "atk2": {
+    "name": "Stomp",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk3": {
+    "name": "Quick Step",
+    "pwr": 15,
+    "spd": 85
+  },
+  "atk4": {
+    "name": "Bite",
+    "pwr": 40,
+    "spd": 60
+  }
+},{
+  "_id": "05",
+  "sprite":"data:pig.svg",
+  "name": "Pig",
+  "hp": 280,
+  "atk1": {
+    "name": "Mud Shot",
+    "pwr": 50,
+    "spd": 70
+  },
+  "atk2": {
+    "name": "Headbutt",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk3": {
+    "name": "Stomp",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk4": {
+    "name": "Bite",
+    "pwr": 40,
+    "spd": 60
+  }
+},{
+  "_id": "06",
+  "sprite":"data:donkey.svg",
+  "name": "Donkey",
+  "hp": 275,
+  "atk1": {
+    "name": "Donkey Kick",
+    "pwr": 80,
+    "spd": 40
+  },
+  "atk2": {
+    "name": "Stomp",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk3": {
+    "name": "Quick Step",
+    "pwr": 15,
+    "spd": 85
+  },
+  "atk4": {
+    "name": "Chomp",
+    "pwr": 60,
+    "spd": 40
+  }
+},{
+  "_id": "07",
+  "sprite":"data:lion.png",
+  "name": "Lion",
+  "hp": 312,
+  "atk1": {
+    "name": "Fang of Kings",
+    "pwr": 85,
+    "spd": 35
+  },
+  "atk2": {
+    "name": "Chomp",
+    "pwr": 60,
+    "spd": 40
+  },
+  "atk3": {
+    "name": "Scratch",
+    "pwr": 50,
+    "spd": 50
+  },
+  "atk4": {
+    "name": "Jab",
+    "pwr": 30,
+    "spd": 70
+  }
+},{
+  "_id": "08",
+  "sprite":"data:gorilla.svg",
+  "name": "Gorilla",
+  "hp": 320,
+  "atk1": {
+    "name": "King Kong Fist",
+    "pwr": 110,
+    "spd": 10
+  },
+  "atk2": {
+    "name": "Grab",
+    "pwr": 30,
+    "spd": 70
+  },
+  "atk3": {
+    "name": "Knuckle Punch",
+    "pwr": 90,
+    "spd": 10
+  },
+  "atk4": {
+    "name": "Excited Punch",
+    "pwr": 50,
+    "spd": 50
+  }
+},{
+  "_id": "09",
+  "sprite":"data:t-rex.svg",
+  "name": "T-Rex",
+  "hp": 300,
+  "atk1": {
+    "name": "Ancient Fang",
+    "pwr": 75,
+    "spd": 45
+  },
+  "atk2": {
+    "name": "Bite",
+    "pwr": 40,
+    "spd": 60
+  },
+  "atk3": {
+    "name": "Stomp",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk4": {
+    "name": "Chomp",
+    "pwr": 60,
+    "spd": 40
+  }
+},{
+  "_id": "10",
+  "sprite":"data:jellyfish.svg",
+  "name": "Jellyfish",
+  "hp": 225,
+  "atk1": {
+    "name": "Tenticle Wrap",
+    "pwr": 70,
+    "spd": 50
+  },
+  "atk2": {
+    "name": "Sting",
+    "pwr": 60,
+    "spd": 40
+  },
+  "atk3": {
+    "name": "Grab",
+    "pwr": 30,
+    "spd": 70
+  },
+  "atk4": {
+    "name": "Wrap",
+    "pwr": 50,
+    "spd": 50
+  }
+},{
+  "_id": "11",
+  "sprite":"data:sloth.svg",
+  "name": "Sloth",
+  "hp": 250,
+  "atk1": {
+    "name": "TH3 END",
+    "pwr": 120,
+    "spd": 200
+  },
+  "atk2": {
+    "name": "Claw",
+    "pwr": 25,
+    "spd": 75
+  },
+  "atk3": {
+    "name": "Scratch",
+    "pwr": 50,
+    "spd": 50
+  },
+  "atk4": {
+    "name": "Tree Swing",
+    "pwr": 25,
+    "spd": 75
+  }
+},{
+  "_id": "12",
+  "sprite":"data:ostritch.png",
+  "name": "Ostritch",
+  "hp": 290,
+  "atk1": {
+    "name": "Flightless Might",
+    "pwr": 65,
+    "spd": 55
+  },
+  "atk2": {
+    "name": "Peck",
+    "pwr": 35,
+    "spd": 65
+  },
+  "atk3": {
+    "name": "Headbutt",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk4": {
+    "name": "Scratch",
+    "pwr": 50,
+    "spd": 50
+  }
+},{
+  "_id": "13",
+  "sprite":"data:black-bird.svg",
+  "name": "Black Bird",
+  "hp": 245,
+  "atk1": {
+    "name": "Seed Eater",
+    "pwr": 60,
+    "spd": 60
+  },
+  "atk2": {
+    "name": "Peck",
+    "pwr": 35,
+    "spd": 65
+  },
+  "atk3": {
+    "name": "Wing Beat",
+    "pwr": 65,
+    "spd": 35
+  },
+  "atk4": {
+    "name": "Screech",
+    "pwr": 15,
+    "spd": 85
+  }
+},{
+  "_id": "14",
+  "sprite":"data:eagle.svg",
+  "name": "Eagle",
+  "hp": 275,
+  "atk1": {
+    "name": "Talon of Valor",
+    "pwr": 75,
+    "spd": 45
+  },
+  "atk2": {
+    "name": "Wing Beat",
+    "pwr": 65,
+    "spd": 35
+  },
+  "atk3": {
+    "name": "Peck",
+    "pwr": 35,
+    "spd": 65
+  },
+  "atk4": {
+    "name": "Claw",
+    "pwr": 25,
+    "spd": 75
+  }
+},{
+  "_id": "15",
+  "sprite":"data:shark.svg",
+  "name": "Shark",
+  "hp": 300,
+  "atk1": {
+    "name": "ManEater",
+    "pwr": 80,
+    "spd": 40
+  },
+  "atk2": {
+    "name": "Bite",
+    "pwr": 40,
+    "spd": 60
+  },
+  "atk3": {
+    "name": "Tail Swing",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk4": {
+    "name": "Chomp",
+    "pwr": 60,
+    "spd": 40
+  }
+},{
+  "_id": "16",
+  "sprite":"data:tiger.svg",
+  "name": "Tiger",
+  "hp": 320,
+  "atk1": {
+    "name": "Paw Slam",
+    "pwr": 90,
+    "spd": 30
+  },
+  "atk2": {
+    "name": "Claw",
+    "pwr": 25,
+    "spd": 75
+  },
+  "atk3": {
+    "name": "Chomp",
+    "pwr": 60,
+    "spd": 40
+  },
+  "atk4": {
+    "name": "Scratch",
+    "pwr": 50,
+    "spd": 50
+  }
+},{
+  "_id": "17",
+  "sprite":"data:octopus.svg",
+  "name": "Octopus",
+  "hp": 260,
+  "atk1": {
+    "name": "OctoPunch",
+    "pwr": 88,
+    "spd": 32
+  },
+  "atk2": {
+    "name": "Wrap",
+    "pwr": 50,
+    "spd": 50
+  },
+  "atk3": {
+    "name": "Grab",
+    "pwr": 30,
+    "spd": 70
+  },
+  "atk4": {
+    "name": "Peck",
+    "pwr": 35,
+    "spd": 65
+  }
+},{
+  "_id": "18",
+  "sprite":"data:dodo.svg",
+  "name": "Dodo",
+  "hp": 265,
+  "atk1": {
+    "name": "Extinct Vengeance",
+    "pwr": 55,
+    "spd": 65
+  },
+  "atk2": {
+    "name": "Peck",
+    "pwr": 35,
+    "spd": 65
+  },
+  "atk3": {
+    "name": "HeadButt",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk4": {
+    "name": "Claw",
+    "pwr": 25,
+    "spd": 75
+  }
+},{
+  "_id": "19",
+  "sprite":"data:mammoth.svg",
+  "name": "Mammoth",
+  "hp": 320,
+  "atk1": {
+    "name": "Icy Tusk",
+    "pwr": 95,
+    "spd": 25
+  },
+  "atk2": {
+    "name": "Stomp",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk3": {
+    "name": "Charge",
+    "pwr": 95,
+    "spd": 5
+  },
+  "atk4": {
+    "name": "Jab",
+    "pwr": 30,
+    "spd": 70
+  }
+},{
+  "_id": "20",
+  "sprite":"data:kangaroo.svg",
+  "name": "Kangaroo",
+  "hp": 290,
+  "atk1": {
+    "name": "Joey Jab",
+    "pwr": 60,
+    "spd": 60
+  },
+  "atk2": {
+    "name": "Excited Punch",
+    "pwr": 50,
+    "spd": 50
+  },
+  "atk3": {
+    "name": "Stomp",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk4": {
+    "name": "Jab",
+    "pwr": 30,
+    "spd": 70
+  }
+},{
+  "_id": "21",
+  "sprite":"data:unicorn.png",
+  "name": "Unicorn",
+  "hp": 275,
+  "atk1": {
+    "name": "Rainbow Burst",
+    "pwr": 60,
+    "spd": 60
+  },
+  "atk2": {
+    "name": "Quick Step",
+    "pwr": 15,
+    "spd": 85
+  },
+  "atk3": {
+    "name": "Stomp",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk4": {
+    "name": "Jab",
+    "pwr": 30,
+    "spd": 70
+  }
+},{
+  "_id": "22",
+  "sprite":"data:snail.svg",
+  "name": "Snail",
+  "hp": 230,
+  "atk1": {
+    "name": "Slimiest Substance",
+    "pwr": 120,
+    "spd": 1
+  },
+  "atk2": {
+    "name": "Stench",
+    "pwr": 10,
+    "spd": 90
+  },
+  "atk3": {
+    "name": "Stench",
+    "pwr": 10,
+    "spd": 90
+  },
+  "atk4": {
+    "name": "Stench",
+    "pwr": 10,
+    "spd": 90
+  }
+},{
+  "_id": "23",
+  "sprite":"data:person-walking.svg",
+  "name": "Human",
+  "hp": 300,
+  "atk1": {
+    "name": "SIG Sauer P320",
+    "pwr": 100,
+    "spd": 20
+  },
+  "atk2": {
+    "name": "Knuckle Punch",
+    "pwr": 90,
+    "spd": 10
+  },
+  "atk3": {
+    "name": "Elbow",
+    "pwr": 30,
+    "spd": 70
+  },
+  "atk4": {
+    "name": "Kick",
+    "pwr": 80,
+    "spd": 20
+  }
+},{
+  "_id": "24",
+  "sprite":"data:snake.svg",
+  "name": "Snake",
+  "hp": 230,
+  "atk1": {
+    "name": "Venom Bite",
+    "pwr": 70,
+    "spd": 50
+  },
+  "atk2": {
+    "name": "Wrap",
+    "pwr": 50,
+    "spd": 50
+  },
+  "atk3": {
+    "name": "Tail Swing",
+    "pwr": 80,
+    "spd": 20
+  },
+  "atk4": {
+    "name": "Tree Swing",
+    "pwr": 25,
+    "spd": 75
+  }
+},{
+  "_id": "25",
+  "sprite":"data:Tree_Frog.png",
+  "name": "Tree Frog",
+  "hp": 231,
+  "atk1": {
+    "name": "Unrelenting Grasp",
+    "pwr": 60,
+    "spd": 60
+  },
+  "atk2": {
+    "name": "Grab",
+    "pwr": 30,
+    "spd": 70
+  },
+  "atk3": {
+    "name": "Croak",
+    "pwr": 15,
+    "spd": 85
+  },
+  "atk4": {
+    "name": "Lick",
+    "pwr": 40,
+    "spd": 60
+  }
+},{
+  "_id": "26",
+  "sprite":"data:goose.svg",
+  "name": "Goose",
+  "hp": 240,
+  "atk1": {
+    "name": "Honking Terror",
+    "pwr": 70,
+    "spd": 50
+  },
+  "atk2": {
+    "name": "Peck",
+    "pwr": 35,
+    "spd": 65
+  },
+  "atk3": {
+    "name": "Wing Beat",
+    "pwr": 65,
+    "spd": 35
+  },
+  "atk4": {
+    "name": "Bite",
+    "pwr": 40,
+    "spd": 60
+  }
+},{
+  "_id": "27",
+  "sprite":"data:monkey.svg",
+  "name": "Monkey",
+  "hp": 250,
+  "atk1": {
+    "name": "Banana Blast",
+    "pwr": 45,
+    "spd": 75
+  },
+  "atk2": {
+    "name": "Excited Punch",
+    "pwr": 50,
+    "spd": 50
+  },
+  "atk3": {
+    "name": "Scratch",
+    "pwr": 50,
+    "spd": 50
+  },
+  "atk4": {
+    "name": "Grab",
+    "pwr": 30,
+    "spd": 70
+  }
+},{
+  "_id": "28",
+  "sprite":"data:5065_chameleon.png",
+  "name": "Chameleon",
+  "hp": 265,
+  "atk1": {
+    "name": "Unseen Warrior",
+    "pwr": 50,
+    "spd": 70
+  },
+  "atk2": {
+    "name": "Scratch",
+    "pwr": 50,
+    "spd": 50
+  },
+  "atk3": {
+    "name": "Tree Swing",
+    "pwr": 25,
+    "spd": 75
+  },
+  "atk4": {
+    "name": "Tail Swing",
+    "pwr": 80,
+    "spd": 20
+  }
+},{
+  "_id": "29",
+  "sprite":"data:dog.svg",
+  "name": "Dog",
+  "hp": 280,
+  "atk1": {
+    "name": "Mans Best Move",
+    "pwr": 100,
+    "spd": 20
+  },
+  "atk2": {
+    "name": "Chomp",
+    "pwr": 60,
+    "spd": 40
+  },
+  "atk3": {
+    "name": "Scratch",
+    "pwr": 50,
+    "spd": 50
+  },
+  "atk4": {
+    "name": "Quick Step",
+    "pwr": 15,
+    "spd": 85
+  }
+},{
+  "_id": "30",
+  "sprite":"data:panda.png",
+  "name": "Panda",
+  "hp": 400,
+  "atk1": {
+    "name": "Wise Bears World",
+    "pwr": 95,
+    "spd": 25
+  },
+  "atk2": {
+    "name": "Tree Swing",
+    "pwr": 25,
+    "spd": 75
+  },
+  "atk3": {
+    "name": "Jab",
+    "pwr": 30,
+    "spd": 70
+  },
+  "atk4": {
+    "name": "Grab",
+    "pwr": 30,
+    "spd": 70
+  }
+},{
+  "_id": "31",
+  "sprite":"data:black-cat.svg",
+  "name": "Cat",
+  "hp": 250,
+  "atk1": {
+    "name": "Household Menace",
+    "pwr": 45,
+    "spd": 75
+  },
+  "atk2": {
+    "name": "Jab",
+    "pwr": 30,
+    "spd": 70
+  },
+  "atk3": {
+    "name": "Bite",
+    "pwr": 40,
+    "spd": 60
+  },
+  "atk4": {
+    "name": "Scratch",
+    "pwr": 50,
+    "spd": 50
+  }
+}]
