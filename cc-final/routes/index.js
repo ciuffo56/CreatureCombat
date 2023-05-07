@@ -40,6 +40,11 @@ router.post('/', async (req, res) => {
     res.redirect('/battle')
 })
 
+//Leaderboard button
+router.post('/leaderboard', (req, res) => {
+    res.redirect('winLoss')
+})
+
 //Logout
 router.post('/logout', (req, res) => {
     req.session.destroy((err) => {

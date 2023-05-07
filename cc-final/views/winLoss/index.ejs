@@ -1,0 +1,11 @@
+<h2>Leaderboard</h2>
+<form action="/winLoss" method="GET">
+    <div>
+        <label for="search">Search by username:</label>
+        <input type="text" name="search" id="search" value="<%= search.username %>">
+    </div>
+    <button type="submit">Search</button>
+</form>
+<% users.forEach(user => { %>
+    <div> <%= user.username %>   Wins: <%= user.wins %>   Losses: <%= user.losses %></div>
+<% }) %>
