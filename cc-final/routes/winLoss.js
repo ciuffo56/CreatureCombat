@@ -12,8 +12,7 @@ router.get('/', isAuth, async (req, res) => {
     try {
         let users = await User.find(search)
         console.log(users)
-        //users.sort(compareFn1LB)
-        users.sort(compareFn2LB)
+        users.sort(compareFnLB)
         console.log(users)
         res.render('winLoss/index', {
         users: users,
@@ -36,17 +35,7 @@ router.get('/loss', isAuth, (req, res) => {
 })
 
 //-----Functions-----
-function compareFn1LB(a, b) {
-    if (a.losses < b.losses) {
-        return -1
-    }
-    if (a.losses > b.losses) {
-        return 1
-    }
-    return 0
-}
-
-function compareFn2LB(a, b) {
+function compareFnLB(a, b) {
     if (b.wins < a.wins) {
         return -1
     }
